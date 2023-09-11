@@ -1,9 +1,9 @@
 #clock-container{
    position: relative;
-    border: 2px solid black;
+    
     width: 40vw;
     height: 40vw;
-    background:url(clock.png)no-repeat ;
+    background:url(clock1.png)no-repeat ;
     background-size:100%;
     margin: auto;
 }
@@ -23,14 +23,15 @@
     position: absolute;
     background-color: green;
     width: 1.8%;
-    height: 27%;
+    height: 28%;
     border-radius: 20px;
-    top: 24%;
+    top: 23%;
     left: 49.1%;
     opacity: 0.8;
     transform-origin: bottom;
-    
 }
+    
+
 #sec{
     position: absolute;
     background-color: blue;
@@ -42,4 +43,12 @@
     opacity: 0.8;
     transform-origin: bottom;
 }
-  
+  #point{
+    position: absolute;
+    background-color: black;
+    border-radius: 200px;
+    width: 5%;
+    height: 5%;
+    top: 48.2%;
+    left: 47.5%;
+  }
